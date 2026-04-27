@@ -315,7 +315,7 @@ function CTASection() {
               <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
                 <Link href="/auth/sign-up">무료로 구독하기</Link>
               </Button>
-              <Button size="lg" className="border border-white/60 bg-white/20 text-white hover:bg-white/30" asChild>
+              <Button size="lg" className="border border-white/60 hover:opacity-90" style={{ backgroundColor: 'rgba(255,255,255,0.2)', color: '#ffffff' }} asChild>
                 <Link href="/about">더 알아보기</Link>
               </Button>
             </div>
